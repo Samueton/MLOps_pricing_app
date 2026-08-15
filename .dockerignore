@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+venv
+pricin_app
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+tests/
+*.md
+.env
+.env.*
+!.env.example
+data/
+notebooks/
+*.ipynb

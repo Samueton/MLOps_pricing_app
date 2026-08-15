@@ -1,0 +1,24 @@
+{
+  "model_version": "1.0.0",
+  "trained_at_utc": "2026-08-14T14:48:19.915401+00:00",
+  "seed": 42,
+  "features": [
+    "overall_qual",
+    "gr_liv_area",
+    "total_bsmt_sf",
+    "garage_cars",
+    "full_bath",
+    "year_built"
+  ],
+  "target": "price",
+  "model_type": "RandomForestRegressor",
+  "metrics": {
+    "rmse": 29374.312489061504,
+    "mae": 19207.23259522558,
+    "r2": 0.8875080132320134,
+    "n_train": 1168,
+    "n_test": 292
+  },
+  "data_path": "data/housing_train_raw.csv",
+  "n_rows_total": 1460
+}
