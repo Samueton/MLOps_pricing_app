@@ -1,6 +1,6 @@
 {
   "model_version": "1.0.0",
-  "trained_at_utc": "2026-08-14T14:48:19.915401+00:00",
+  "trained_at_utc": "2026-08-16T18:45:27.040557+00:00",
   "seed": 42,
   "features": [
     "overall_qual",

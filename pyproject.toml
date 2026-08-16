@@ -1,7 +1,7 @@
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-exclude = ["artifacts", "data", ".venv", "pricin_app"]
+exclude = ["artifacts", "data", ".venv", "venv", "pricing_app", "pricin_app", "**/site-packages/**"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP", "B"]
